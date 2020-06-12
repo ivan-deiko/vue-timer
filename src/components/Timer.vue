@@ -42,7 +42,7 @@
       }
     },
     watch: {
-      timerOn: val => clearInterval(this.timerInterval)
+      timerOn: () => clearInterval(this.timerInterval)
     },
     methods: {
       startTimer() {
