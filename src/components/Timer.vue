@@ -7,7 +7,7 @@
       <span class="timer-min">{{min}}-m-</span>
       <span class="timer-sec">{{sec}}-s</span>
     </div>
-    <span class="timer-end">timer finish in {{this.timerData.endTime}}</span>
+    <span class="timer-end">timer finish in {{timerData.endTime}}</span>
   </div>
 </template>
 
